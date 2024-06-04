@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Prozessgalerie</title>
+
+    <link rel="stylesheet" type="text/css" href="app.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Lukas Frauenfelder</h1>
+      <h3>Prozessdokumentation</h3>
+    </header>
+
+    <!--Sprint 1 -->
+
+    <h2>Sprint 1</h2>
+    <p>
+      Im ersten Sprint habe ich mich mit dem Thema Pixel beschäftigt. Wie ein
+      Bild aufgebaut ist und wie man diesen Aufbau in p5 spielerisch
+      manipulieren und nachbauen kann. In einem ersten Schritt habe ich Pixel
+      durch ein selbst erstelltes Raster ersetzt. Mit diesem Raster konnte ich
+      dann die Helligkeitswerte des darunter liegenden Bildes extrahieren. In
+      einem nächsten Schritt manipulierte ich die Form der Pixel, z. B. in
+      Kreise. In meiner dritten und letzten Arbeit habe ich die einzelnen Pixel
+      eines Bildes nach Helligkeitswerten sortiert. Wenn man die Struktur
+      verstanden hat, gibt es unzählige Möglichkeiten, ein Bild zu abstrahieren.
+      Man kann die Pixel auch komplett durch andere Objekte wie z. B. Zeichen
+      ersetzen, was ich bereits in einem früheren Modul ausprobiert habe.
+    </p>
+    <nav>
+      <ul>
+        <li><a href="pixelSketch/index.html">Pixel erkennen</a></li>
+        <li><a href="pixel_farbe+rund/index.html">Pixel manipulieren</a></li>
+        <li><a href="03.05_pixel.sort/index.html">Pixel sortieren</a></li>
+      </ul>
+    </nav>
+    <section class="screenshots">
+      <article class="big">
+        <a href="../2024-05-01/basic-example/index.html">
+          <img src="images/bild.png" />
+        </a>
+      </article>
+      <article>
+        <img src="images/bild2.png" />
+      </article>
+      <article class="big">
+        <img src="images/bild3.png" />
+      </article>
+      <article class="big">
+        <img src="images/bild4.png" />
+      </article>
+    </section>
+
+    <!--Sprint 2 -->
+    <h2>Sprint 2</h2>
+    <p>
+      Im Sprint 2 haben wir uns mit dem Generieren von Text befasst. In unserer
+      Gruppe ging es darum, lustige Zeitungsartikel zu erstellen. Dazu haben wir
+      Headlines bekannter Zeitungen gesammelt und diese zufällig miteinander
+      vermischt. Der Algorhithmus, der die Headlines mischt, ist eine
+      MarkovChain(). Diese speichert alle Wörter eines Satzes zusammen mit einer
+      Wahrscheinlichkeit für nachfolgende Wörter in einem Array. Es war
+      interessant zu sehen, wie das Generieren von Text funktioniert. So kann
+      man ein wenig verstehen, wie ChatGPT aufgebaut ist.
+    </p>
+    <nav>
+      <ul>
+        <li><a href="NEWS/index.html">News</a></li>
+      </ul>
+    </nav>
+    <section class="screenshots">
+      <article class="middle">
+        <a href="../2024-05-01/basic-example/index.html">
+          <img src="images/New.png" />
+        </a>
+      </article>
+    </section>
+
+    <!--Sprint 3 -->
+    <h2>Sprint 3</h2>
+    <p>
+      Im Sprint 3 ging es um das Visualisieren von Sound. Um in p5 mit Sound
+      arbeiten zu können, muss noch die p5.sound.library eingebunden werden.
+      Damit lässt sich Sound laden und analysieren. Mit der fft.analyse() kann
+      man dann auf das Klangspektrum zugreifen. In meinem ersten Projekt ging es
+      darum dieses Spektrum anders darzustellen, als man es sich gewöhnt ist.
+      Dazu wählte ich ein Spektrum von 0 bis 16 und ordnete es kreisförmig an.
+      Zudem wollte ich eine Art Timeline, um das bereits abgespielte Spektrum
+      sichtbar zu machen. Das habe ich gelöst, indem ich die Canvas jede Sekunde
+      kopiert und nach hinten verschoben habe. Die Farben habe ich dann je nach
+      Intensität auf Blau oder Rot gemappt. Mein zweites Projekt befasste sich
+      mit der waveform() -Funktion. Die Waveform kennt man im Zusammenhang mit
+      Sound sehr gut. Diese entsteht aus dem Zusammenrechnen aller
+      Sound-Spektren. Diese
+    </p>
+
+    <nav>
+      <ul>
+        <li><a href="Spectrum/index.html">Spectrum</a></li>
+        <li><a href="Wave/index.html">Wave</a></li>
+      </ul>
+    </nav>
+    <section class="screenshots">
+      <article class="big">
+        <a href="../2024-05-01/basic-example/index.html">
+          <img src="images/wave.png" />
+        </a>
+      </article>
+      <article class="big">
+        <img src="images/spectrum.png" />
+      </article>
+      <article class="big">
+        <img src="images/wave2.png" />
+      </article>
+      <article class="big">
+        <img src="images/wave3.png" />
+      </article>
+    </section>
+
+    <h2>Sprint 4</h2>
+    <nav>
+      <ul>
+        <li><a href="Doomsday_blue/index.html">Version 1</a></li>
+        <li><a href="Doomsday_blue2/index.html">Version 2</a></li>
+        <li><a href="Doomsday_blue3/index.html">Version 3</a></li>
+      </ul>
+    </nav>
+    <section class="screenshots">
+      <article class="big">
+        <a href="../2024-05-01/basic-example/index.html">
+          <img src="images/blue.png" />
+        </a>
+      </article>
+      <article class="big">
+        <img src="images/nurblau.png" />
+      </article>
+      <article class="big">
+        <img src="images/dommsday.png" />
+      </article>
+    </section>
+    <footer>
+      <a href="#screenshots">
+        <svg class="arrows">
+          <path class="a1" d="M0 0 L30 32 L60 0"></path>
+          <path class="a2" d="M0 20 L30 52 L60 20"></path>
+        </svg>
+      </a>
+    </footer>
+    <script src="sketch.js"></script>
+  </body>
+</html>
